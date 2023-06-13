@@ -1,0 +1,147 @@
+.letsContact{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    width: 100vw;
+    padding: 50px 0;
+}
+
+.letsContact div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.letsContact .rightDiv{
+    margin-top: -150px;
+}
+
+.letsContact .titleContact{
+    width: 100%;
+    padding: 50px;
+    text-align: right;
+}
+
+.letsContact .titleContact div{
+    width: 50%;
+}
+
+.letsContact .titleContact h3{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.letsContact .titleContact .yellow{
+    color: var(--transparent);
+    -webkit-text-stroke: 1px var(--yellow);
+    font-weight: bold;
+}
+
+.letsContact .leftDiv input{
+    width: 100%;
+    background-color: var(--transparent);
+    padding: 20px;
+    border: 0;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    font-size: 18px;
+}
+
+.letsContact .leftDiv #submitInput{
+    margin-top: 20px;
+    border: 1px solid var(--white);
+    width: 25%;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition-duration: .3s;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 8px;
+}
+
+.letsContact .leftDiv #submitInput:hover{
+    border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.letsContact .leftDiv textarea{
+    background-color: var(--transparent);
+    padding: 20px;
+    border: 0;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    font-size: 18px;
+}
+
+.letsContact .leftDiv textarea::placeholder{
+    color: var(--white);
+    font-size: 18px;
+}
+
+.letsContact .leftDiv input::placeholder{
+    color: var(--white);
+    font-size: 18px;
+}
+
+.leftDiv{
+    padding: 50px;
+}
+
+.rightDiv{
+    padding: 50px;
+}
+
+.rightDiv h2{
+    font-size: 42px;
+    line-height: 1em;
+}
+
+.rightDiv h3{
+    font-size: 42px;
+    line-height: 1em;
+    padding-left: 10px;
+    color: var(--yellow);
+}
+
+.rightDiv p{
+    padding-top: 10px;
+    line-height: 1.2em;
+    width: 100%;
+}
+
+.textAnswer{
+    margin-top: 10px;
+}
+
+.textBrief{
+    margin-top: 10px;
+}
+
+.rightDiv #newTextArea{
+    color: var(--yellow);
+}
+
+.letsContact .leftDiv .termsAndConditions{
+    height: initial;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.letsContact .leftDiv .termsAndConditions #terms{
+    width: initial;
+    margin-right: 10px;
+}
+
+.emailResponse{
+    color: var(--yellow);
+}
+

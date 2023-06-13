@@ -1,0 +1,20 @@
+.footerMain{
+    border-top: 1px solid var(--white);
+}
+
+.footerMain .footerDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.footerMain .footerDiv p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerMain .footerDiv .yellow{
+    color: var(--yellow);
+}
